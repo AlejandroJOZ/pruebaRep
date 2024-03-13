@@ -28,6 +28,11 @@ public class Date {
    * @return The day of the month (1-31).
    */
 
+<<<<<<< HEAD
+=======
+  // Constructor modified by the collaborator
+
+>>>>>>> 0efb0be59aaa6e5695e5b9bac8d254f92a526aba
   public void methodAddedByOwner(){
     System.out.println("Method added by the owner");
   }
@@ -61,11 +66,6 @@ public class Date {
    * @param year The year (should ideally be within the valid range of 1900 to 2050 for validation
    *     to pass).
    */
-  public Date(int day, int month, int year) {
-    this.day = day;
-    this.month = month;
-    this.year = year;
-  }
 
   /**
    * Validates the date according to the predefined rules: the year must be within 1900 to 2050, the
